@@ -1,0 +1,158 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common css */
+:root {
+    --color-one: #EA9F16;
+    --color-two: #F7C019;
+    --color-three: #fff;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: gainsboro;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 850px;
+    background-color: var(--color-three);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.title{
+    color: var(--color-one);
+    margin-left: 54px;
+}
+
+/* navigation part */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--color-one);
+    display: flex;
+    justify-content: center;
+}
+nav {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: var(--color-three);
+    font-size: 2em;
+}
+.menu a {
+    text-decoration: none;
+    color: var(--color-three);
+    font-size: 15px;
+    margin-right: 10px;
+}
+.menu a i {
+    font-size: 20px;
+    border: 2px solid var(--color-three);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Student part */
+.students {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    margin-bottom: 20px;
+}
+.student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student-image {
+    width: 50px;
+    height: 50px;
+}
+.student-image img {
+    width: 100%;
+}
+.student-name {
+    margin-left: 15px;
+}
+/* Blog part */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-image {
+    width: 200px;
+    width: 200px;
+}
+.blog-image img {
+    width: 100%;
+}
+.blog-info {
+    margin-left: 15px;
+}
+.blog-author a{
+    color: var(--color-two);
+}
+
+/* Course part */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-image {
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+}
+.course-image img {
+    width: 100%;
+}
+.course-details {
+    margin-left: 15px;
+}
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-author a{
+    color: var(--color-one);
+}
+.rating {
+    font-size: 10px;
+    color: var(--color-two);
+}
+.duration {
+    margin-right: 50px;
+    color: var(--color-one);
+    border: 2px solid var(--color-two);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+
+/* Media queries */
+@media only screen and (max-width: 688px) {
+
+}
+
+@media only screen and (min-width: 669px) and (max-width: 992px){   
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px){   
+ 
+}
