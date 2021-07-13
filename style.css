@@ -174,7 +174,10 @@ nav {
     background-color: var(--color-one);
     border-radius: 20px;
     color: var(--color-three);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sbox {
     background-color: var(--color-two);
@@ -185,6 +188,9 @@ nav {
     padding: 10px;
     border: 2px solid var(--color-three);
     border-radius: 20px;
+}
+.box h1 {
+    font-size: 18px;
 }
 .feature-info h2 {
     color: var(--color-one);
@@ -211,6 +217,21 @@ nav {
 }
 .mentor-image img {
     width: 100%;
+}
+
+/* Footer part */
+footer {
+    background-color: var(--color-two);
+    width: 100%;
+    height: 100px;
+}
+footer h1 {
+    color: var(--color-one);
+    text-align: center;
+}
+footer p {
+    color: var(--color-three);
+    text-align: center;
 }
 
 
